@@ -12,6 +12,7 @@ while True:
         guess = int(input(f"whats {num1} + {num2}: "))
     except Exception:
         print("sorry, try again")
+        # restarts loop
         continue
     else:
         
