@@ -10,7 +10,7 @@ x_bool = bool(x_int) # True | int -> bool (any number is True except 0 which is 
 
 
 
-x_str = " " # string 'hello'
+x_str = "hello" # string 'hello'
 
 x_int = int(x_str) # NO | only works if the string is a integer (5.0 not accepted)
 x_float = float(x_str) # NO | only works if the string is a number
