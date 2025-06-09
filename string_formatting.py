@@ -20,7 +20,7 @@ print('my name is %s and I have slept %d hours' % (name, sleep)) # my name is da
 
 
 # .format()
-name2 = "ash"
+name2 = "ashvin"
 marks = 90
 print('apparently {} cheated and got a score of {}.' .format(name2, marks)) # apparently ash cheated and got a score of 90
 # another way to put it is
