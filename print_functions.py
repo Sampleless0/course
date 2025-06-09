@@ -74,7 +74,7 @@ print("i am", age, "years old", sep= "BRO")
 # escape characters
 \n # creates new line
 \t # for a tab character (indentation ig)
-\" # just a "                     \"
-\' # just a '                     \'
+\" (# just a ") \"
+\' (# just a ') \'
 \\ # just a \
 
