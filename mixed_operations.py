@@ -62,3 +62,12 @@ float = float / bool # 1.0 | bool is treated as 1 for True, 0 for False
 error = int / str # NO | int cannot divide by string
 error = float / str # NO | float cannot divide by string
 error = str / bool # NO | string cannot divide by bool
+
+
+
+# examples
+print("1" + 2 * '3' + "1") # '1331' as 2 * '3' = '33'
+print(1 + 2 * 3 / 3 + 1) # 4.0 as int / int = float
+print('1' + "2" * '3' + "1") # type error as str * str = error
+print(1 + False / True) # 1.0 as bool / bool = float
+print(1 + "2" * 3 + '1') # error as int + str = error
