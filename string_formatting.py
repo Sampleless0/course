@@ -29,5 +29,18 @@ print('apparently {var1} cheated and got a score of {var2}.' .format(var1 = name
 
 
 # f-strings
+grade = "C+"
+time = 10
+print(f'so somebody completed their programming test in {time} minutes but ended up with a {grade}')
+# f strings allow operations inside the print
+print(f'so somebody completed their programming test in {time * 60} seconds but ended up with a {grade}')
+
+
 
 # template strings (slides say not tested but idk)
+from string import Template
+example = template('hello, $name, u look like a $look/10')
+
+user = template.substitude(name='bruce', look=3)
+print(user) # hello, bruce, u look like a 3/10
+
