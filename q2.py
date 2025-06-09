@@ -1,4 +1,7 @@
+# receive input in lowercase
 temperature = input("Is it warm or cold? (warm/cold):").lower()
+
+# check with if else and print result
 if temperature == "cold":
     raining = input("Is it raining? (yes/no):").lower()
     if raining == "yes":
