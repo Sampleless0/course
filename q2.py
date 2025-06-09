@@ -1,9 +1,11 @@
+# function that takes in 3 variables: physics, chemistry, math
 def check(physics, chemistry, math):
     if (physics + chemistry + math) / 3 >= 50:
         return "Pass"
     else:
         return "Fail"
 
+# tries to receive input as int
 try:
     phy = int(input("Enter the physics: "))
     chem = int(input("Enter the chemistry: "))
