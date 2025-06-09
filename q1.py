@@ -1,4 +1,4 @@
-# receive input and turn it to lowercase
+# receive input and convert it to lowercase (eg DAY --> day)
 someoneInRoom = input("is someone in the room -> (yes/no) ").lower()
 
 # check for variables and print result
