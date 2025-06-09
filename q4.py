@@ -1,6 +1,5 @@
+# receives input as int
 temp = int(input("temperature in degree celcius = "))
 
-def convert(celcius):
-    return int((celcius*9/5)+32)
-
-print(convert(temp))
+# print results as int
+print(int((temp*9/5)+32))
