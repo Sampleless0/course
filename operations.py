@@ -27,3 +27,7 @@ x //= 2
 # modulus (finds the remainder)
 x = x % 2
 x %= 2
+
+# exponential (power)
+x = x ** 2
+x **= 2
