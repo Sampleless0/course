@@ -1,5 +1,7 @@
+# receive input and turn it to lowercase
 someoneInRoom = input("is someone in the room -> (yes/no) ").lower()
 
+# check for variables and print result
 if someoneInRoom == "yes":
     isDayNight = input("is it day or night -> (day/night) ").lower()
     if isDayNight == "day":
