@@ -4,7 +4,7 @@ look for code inside branches
 
 2.1: variable types / print
 
-2.2: test
+2.2: string types / basic operations
 
 3.1:
 
