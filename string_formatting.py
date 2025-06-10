@@ -40,7 +40,7 @@ print(f'so somebody completed their programming test in {time * 60} seconds but 
 # template strings (slides say not tested but idk)
 from string import Template
 example = template('hello, $name, u look like a $look/10')
-# in this example $name and $ look are like variables
+# in this example $name and $look are like variables
 
 user = template.substitude(name='bruce', look=3)
 print(user) # hello, bruce, u look like a 3/10
