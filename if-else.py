@@ -10,6 +10,14 @@ print("complete") # runs regardless if "fact" is True or False
 
 
 # basic if else statement
+if fact == True: 
+  print("True") 
+if fact == False: 
+  print("False") 
+print("complete") 
+# this is fine but use if else instead
+
+# basic if else statement (proper)
 if fact == True: # checks if "fact" is True
   print("True") # runs only if "fact" is True
 else: # if "fact" is NOT true
@@ -64,3 +72,27 @@ a == 1 or b == 2 # checks if a == 1 or b == 2
 
 not a == b # checks if a is not equal to b (same as a != b)
 
+
+# extra info
+# for bool, u can simplify
+if fact == True:
+  print("truth")
+# to
+if fact:
+  print("truth")
+
+
+# for numbers,
+if number != 0:
+  print("not 0")
+# to
+if number:
+  print("not 0")
+
+
+# for string,
+if string == "":
+  print("string is empty")
+# to
+if string:
+  print("string is empty")
