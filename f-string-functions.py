@@ -35,10 +35,28 @@ print(f"i got {grade:.1%} for gooning") # i got 95.5% for gooning (better)
 
 
 
+# adding commas ,
+money = 123456789
+print(f"i wish i had ${money} rn") # i wish i had $123456789 rn
+# comma to make reading numbers easier
+print(f"i wish i had ${money:,} rn") # i wish i had $123,456,789 rn
+# works with other functions too
+print(f"i wish i had ${money:,.2f} rn") # i wish i had $123,456,789.00 rn
+# works with ,d too (must be integer)
+print(f"i wish i had ${money:,d} rn") # i wish i had $123,456,789 rn
+
+
+
 # alignment (VERY IMPORTANT)
 first_name = "bruce"
 last_name = "lim"
 print(f"hello-there-{first_name}-{last_name}-the-human") # hello-there-bruce-lim-the-human
+
+# :<x creates gap on the right side
+print(f"hello-there-{first_name:10}-{last_name}-the-human") # hello-there-bruce   -lim-the-human
+print(f"hello-there-{first_name:20}-{last_name}-the-human") # hello-there-bruce           -lim-the-human
+print(f"hello-there-{first_name}-{last_name:10}-the-human") # hello-there-bruce-lim     -the-human
+print(f"hello-there-{first_name}-{last_name:20}-the-human") # hello-there-bruce-lim             -the-human
 
 # :<x creates gap on the right side
 print(f"hello-there-{first_name:<10}-{last_name}-the-human") # hello-there-bruce   -lim-the-human
