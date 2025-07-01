@@ -73,6 +73,30 @@ a == 1 or b == 2 # checks if a == 1 or b == 2
 not a == b # checks if a is not equal to b (same as a != b)
 
 
+# nested if statements
+if number == 1 and fact:
+  print("number is 1")
+elif number == 2 and fact:
+  print("number is 2")
+elif number == 3 and fact:
+  print("number is 3")
+else:
+  print("idk what number")
+# this is fine but if you wanna used nested if statements
+if fact: # it checks if fact is true first
+  if number == 1: # only runs this check if fact is true (note that)
+    print("number is 1")
+  elif number == 2:
+    print("number is 2")
+  elif number == 3:
+    print("number is 3")
+  else:
+    print("idk what number")
+else:
+  print("fact is not true")
+# if fact is false, the checks for the numbers is entirely skipped
+
+
 # extra info
 # for bool, u can simplify
 if fact == True:
