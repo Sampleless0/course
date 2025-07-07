@@ -7,5 +7,7 @@ people = [
     {"name": "Lam Lin Shan", "nric": "S4456223G"}
 ]
 
+
+# print name and nric for each person
 for person in people:
   print(f'Name: {person["name"]}, NRIC: {person["nric"]}')
