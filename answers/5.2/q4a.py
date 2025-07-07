@@ -20,3 +20,15 @@ for student in students:
         print(f"Math: {student["Math"]}")
         print(f"Science: {student["Science"]}")
         print(f"Average mark for {student["Learner"]}: {(student["English"] + student["Math"] + student["Science"])/3:.1f}")
+
+    
+    
+# expected result
+
+# Enter student name: Jane
+# Result of Jane
+# ===================================
+# English: 75
+# Math: 80
+# Science: 85
+# Average mark for Jane: 80.0
