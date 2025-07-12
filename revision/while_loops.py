@@ -1,4 +1,4 @@
-# while loops and for loops
+# while loops
 
 # while loops
 while True:
