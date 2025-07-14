@@ -140,7 +140,7 @@ def sub10(sub):
   return sub - 10
 
 def multi(times):
-  return multi, multi*10, multi*100
+  return times, times*10, times*100
 
 def divide(number, number2):
   return number / number2
@@ -148,10 +148,10 @@ def divide(number, number2):
 print(add10(number))
 print(sub10(number))
 print(multi(number))
-print(multi(number, 2))
+print(divide(number, 2))
 # expected:
 # 20
 # 0
 # (10, 100, 1000)
-# 5
+# 5.0
 # program ended.
