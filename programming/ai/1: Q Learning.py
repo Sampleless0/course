@@ -1,1 +1,12 @@
-
+' Q learning is literally trial and error'
+'
+'the important concepts are'
+'
+'Q Table (where the best actions are stored)'
+'Q State (the action itself, like [location, move, points]'
+'Learning Rate (how willing the ai is to accept new methods / routes)'
+'Discount Factor (when the ai makes a good move, eg the most recent gets 10 points, and the discount factor reduces it for the move before that, 9 points)'
+'Learning Curve (whether the ai tries new stuff)'
+'Learning Decay (how quickly the ai goes from trying new things to doing what it knows is good)'
+'
+'
